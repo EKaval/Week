@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-cout « "Hello World!" << endl;
+//Переменная для имени пользователя
+std::string name;
+//Вводим имя пользователя
+std::cout << "Enter your name: " << endl;
+std::cin >> name;
+//Выводим приветствие и имя пользователя
+std::cout << "Hello World from " << name << "!" << endl;
 return 0; 
 }
