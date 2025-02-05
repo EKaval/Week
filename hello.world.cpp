@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-cout « "Hello World!" << endl;
+std::string name;
+std::cout << "Enter your name: " << endl;
+std::cin >> name;
+std::cout << "Hello World from " << name << "!" << endl;
 return 0; 
 }
